@@ -15,5 +15,3 @@ which are compared as part of this body of work.
 
 ## Running the DNS code
 Once the Basilisk structure is in place, the driver code here is built either as stand-alone test to be run via *run_test.sh* in which a single run can be customised, or as a loop over variables of interest (in this case drop radius $R$ and initial drop velocity $V_0$, with one of each values added to the *run_master_example.sh* for brevity. Other parameters can be varied through this shell script, with both physical and computational handles provided. 
-
-in order to navigate parameter sweeps in velocity $V_0$ and resolution level, with one of each values added to the run_master_example.sh for brevity. Other parameters can be varied through this shell script, with both physical and computational handles provided. 
