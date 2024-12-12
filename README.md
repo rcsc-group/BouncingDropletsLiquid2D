@@ -14,4 +14,6 @@ which are compared as part of this body of work.
 * The two-phase non-coalescing fluid volume implementation by V. Sanjay available [here](https://github.com/VatsalSy/Lifting-a-sessile-drop/blob/master/CaseI/two-phaseDOD.h) has been successfully employed in this study to limit numerical artifacts during contact time.
 
 ## Running the DNS code
-Once the Basilisk structure is in place, the driver code here is built either as stand-alone test to be run via *run_test.sh* in which a single run can be customised, or as a loop over variables of interest (in this case drop radius $R$ and initial drop velocity $V_0$, with one of each values added to the *run_master_example.sh* for brevity. Other parameters can be varied through this shell script, with both physical and computational handles provided. 
+Once the Basilisk structure is in place, the driver code here is built either as stand-alone test to be run via *run_test.sh* in which a single run can be customised, or as a loop over variables of interest (in this case drop radius $R$ and initial drop velocity $V_0$, with one of each values added to the *run_master_example.sh* for brevity. The foldering structure should be retained or modified in a self-consistent manner across the relevant files. 
+
+Other parameters can be varied through this shell script, with both physical and computational handles provided. 
