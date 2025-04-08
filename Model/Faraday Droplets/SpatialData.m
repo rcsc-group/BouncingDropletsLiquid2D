@@ -34,7 +34,7 @@ mu_air  = 1.825e-5;   % air     % viscosity air  kg/ms
 %Silicone oil
 rho_liq = 949;            % density liquids     kg/m^3 
 sig     = 2.06e-2;        % surface tension     kg/s^2
-mu_liq  = 0.8205*1.9e-2;  % dynamic viscosity   kg/ms
+mu_liq  = 1.9e-2;  % dynamic viscosity   kg/ms
 
 % Droplet Values
 rho_drop =  rho_liq;   
